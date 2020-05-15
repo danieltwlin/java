@@ -1,0 +1,10 @@
+public class TestMain { 
+public static void main(String[] args) throws Exception { 
+System.out.println("哈哈哈哈哈"); 
+throw new Exception(" error1 "); 
+} 
+}
+
+#==== Key Point ======
+# throws Exception
+# throw new Exception(""); 
