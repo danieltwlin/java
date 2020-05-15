@@ -1,0 +1,11 @@
+关于org.apache.http包中的HttpClient在myeclipse中无法解析问题
+
+因为org,apache.http对应的是Andriod里面的，并不是Java里面的。
+在查找的过程中就会有关于Andriod中使用HttpClient有问题的博客。
+这样简单的解决办法就是：去官网中下载需要的jar包，然后倒入到项目中去就ok了。
+
+http://hc.apache.org/downloads.cgi 
+
+自己下了最下面的那一款解压之后不对，最后试了第二款的就ok了。
+
+在解压完毕，找到相应的lib目录，就解决问题啦。
