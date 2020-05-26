@@ -26,3 +26,7 @@ you can get rid of commons-httpclient.
 
  MAVEN_HOME=/User/xhhuang/maven export 
  PATH=$PATH:$MAVEN_HOME/bin
+ 
+*check Maven Work
+
+ $ mvn -version
