@@ -19,4 +19,10 @@ You don't have httpcore in your classpath which is actually the library that you
 You only need httpcore and httpclient in your classpath,
 you can get rid of commons-httpclient.
 
-http://hc.apache.org/httpcomponents-core-ga/
+*Download Maven
+ http://hc.apache.org/httpcomponents-core-ga/
+
+*Add Maven to PATH
+
+ MAVEN_HOME=/User/xhhuang/maven export 
+ PATH=$PATH:$MAVEN_HOME/bin
