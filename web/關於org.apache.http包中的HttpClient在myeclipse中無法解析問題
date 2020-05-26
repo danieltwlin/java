@@ -11,3 +11,10 @@ http://hc.apache.org/downloads.cgi
 自己下了最下面的那一塊解壓之後不對，最後試了第二款的就ok了。
 
 在解壓完畢，找到相應的lib目錄，就解決問題啦。
+
+
+--------------------------------------------------------------------
+
+You don't have httpcore in your classpath which is actually the library that your program refers to. 
+You only need httpcore and httpclient in your classpath,
+you can get rid of commons-httpclient.
