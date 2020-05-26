@@ -18,3 +18,5 @@ http://hc.apache.org/downloads.cgi
 You don't have httpcore in your classpath which is actually the library that your program refers to. 
 You only need httpcore and httpclient in your classpath,
 you can get rid of commons-httpclient.
+
+http://hc.apache.org/httpcomponents-core-ga/
