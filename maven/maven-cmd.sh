@@ -1,3 +1,5 @@
+#　建立 Maven 專案，使用互動方式建立Project
+mvn archetype:generate
 
 # 編譯主程式  ( 需與 pom.xml 同目錄)
  mvn compile
